@@ -1,0 +1,23 @@
+.header {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden !important;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 6em;
+}
+
+.animated {
+    overflow: hidden;
+    font-size: 3em;
+}

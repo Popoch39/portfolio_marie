@@ -8,9 +8,50 @@
     height: calc(100vh - var(--header-height));
 }
 
+.personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%
+}
+
+.parcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.marie {
+    width: 15rem;
+    height: auto;
+}
+
+.text_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
 
 @media screen and (min-width: 1080px) {
     .container {
+        flex-direction: row;
+    }
+
+    .personal {
+        width: 40%;
+        height: 100%;
+    }
+
+    .parcours {
         flex-direction: row;
     }
 }
