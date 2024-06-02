@@ -33,6 +33,16 @@ const page = () => {
                         </div>
                     </div>
                 </div>
+                <div className={style.personal}>
+                    <div className={style.infos}>
+                        <div className={style.card}>
+
+                        </div>
+                        <div className={style.card}></div>
+                        <div className={style.card}></div>
+
+                    </div>
+                </div>
             </div>
         </>
     )
