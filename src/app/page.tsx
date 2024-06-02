@@ -8,14 +8,14 @@ import { useRouter } from 'next/navigation'
 export default function Home() {
   const [isLastWord, setIsLastWord] = useState<boolean>(false);
   const router = useRouter();
-  useEffect(() => {
-    if (!isLastWord) return;
-    const timeOut = setTimeout(() => {
-      router.push("/a-propos");
-    }, 5000)
+  // useEffect(() => {
+  //   if (!isLastWord) return;
+  //   const timeOut = setTimeout(() => {
+  //     router.push("/a-propos");
+  //   }, 5000)
 
-    return () => clearTimeout(timeOut)
-  }, [isLastWord]);
+  //   return () => clearTimeout(timeOut)
+  // }, [isLastWord]);
 
   return (
     <div className={style.container}>
